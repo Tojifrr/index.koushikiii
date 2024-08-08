@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Koushiki</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            color: #fff;
+            background: url('https://www.example.com/aesthetic-background.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .hero h1 {
+            font-size: 4em;
+            margin: 0;
+            color: #ffcccb;
+        }
+        .hero p {
+            font-size: 1.5em;
+            color: #ffcccb;
+        }
+        .section, .gazal, .note, .life {
+            padding: 50px 20px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        .section h2, .gazal h2, .note h2, .life h2 {
+            font-size: 2.5em;
+            color: #ffcccb;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .section p, .gazal p, .note p, .life p {
+            font-size: 1.2em;
+            color: #ffffff;
+            line-height: 1.6;
+            font-weight: bold;
+        }
+        .button-container {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .button {
+            background-color: #ffcccb;
+            border: none;
+            color: #fff;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1.5em;
+            margin: 20px;
+            cursor: pointer;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .button.no {
+            background-color: #ff6666;
+        }
+        .button.yes {
+            background-color: #66ff66;
+        }
+        .button-heading {
+            font-size: 2em;
+            color: #ffcccb;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div>
+            <h1>Hi Koushiki!</h1>
+            <p>For my love, with all my heart</p>
+        </div>
+    </div>
+    <div class="section">
+        <h2>Our Love Story</h2>
+        <p>We first met on 25th March 2024 in Hemlo Ji. I had a crush on her for a long time, and very soon we both became besties. On her birthday, 3rd June, I proposed to her, and she actually accepted it. Our first night when we met was W. We both sent each other gore videos.</p>
+    </div>
+    <div class="gazal">
+        <h2>Gazal</h2>
+        <p>
+            Tere pyaar ki raahon mein chhupi hai khushi, Koushiki,<br>
+            Har pal tere bina hai adhoori si zindagi, Koushiki.<br><br>
+
+            Tere bina har pal hai veeran aur udaas,<br>
+            Tere saath har din lagta hai jaise ek khwaab sa, Koushiki.<br><br>
+
+            Tumhari muskurahat hai mere jeene ki wajah,<br>
+            Tumhare bina har khushi bhi lagti hai adhuri, Koushiki.<br><br>
+
+            Dil se dil tak hai ek gehra rishta,<br>
+            Tere bina har jazbaat lagta hai bekar, Koushiki.
+        </p>
+    </div>
+    <div class="note">
+        <h2>Note for Her</h2>
+        <p>
+            Dear Koushiki,<br><br>
+            I just wanted to let you know how much you mean to me. Your love brings light and joy into my life, and every moment spent with you is a treasure. You are my heart’s delight, and your presence makes everything better. I cherish every moment we share and look forward to many more.<br><br>
+
+            You are truly special to me, and I want you to know how deeply I care for you. Your love completes me, and I am so grateful to have you by my side. Thank you for being you and for filling my life with love and happiness.<br><br>
+
+            With all my love,<br>
+            Yuvi
+        </p>
+    </div>
+    <div class="life">
+        <h2>How I Want to Spend My Life with You</h2>
+        <p>
+            Dear Koushiki,<br><br>
+            I wanted to take a moment to tell you just how deeply I feel about us. Every day I am more convinced that I want to spend my entire life with you. Your presence brings so much joy and warmth to my life, and I can’t imagine a future without you by my side.<br><br>
+
+            You are truly beautiful, not just in appearance but in the way you carry yourself, your kindness, and the love you share. Your smile lights up my world, and your grace and elegance leave me in awe. You are my muse, my inspiration, and my everything.<br><br>
+
+            Being with you makes me realize how perfect and fulfilling life can be. I look forward to creating countless memories together, growing old with you, and sharing every moment of joy and challenge. You are the love of my life, and I am so grateful to have you.<br><br>
+
+            With all my love and devotion,<br>
+            Yuvi
+        </p>
+    </div>
+    <div class="button-container">
+        <div class="button-heading">Will you marry me? 💍</div>
+        <a href="javascript:void(0)" class="button no" onclick="handleNoClick()">No</a>
+        <a href="marry-me.html" class="button yes">Yes</a>
+    </div>
+
+    <script>
+        function handleNoClick() {
+            alert("No worries! It's okay.");
+        }
+    </script>
+</body>
+</html>
